@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fallout News</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Fallout News</h1>
+      <nav class="main-nav">
+        <a href="#artigos">Artigos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#newsletter">Newsletter</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-text">
+        <h2>Guia e comunidade do mundo pós-apocalíptico</h2>
+        <p>Notícias, guias de sobrevivência, mods, e histórias dos vaults.</p>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="glow-top"></div>
+      </div>
+    </section>
+
+    <section id="artigos" class="artigos container">
+        <a href="#artigos"></a>
+      <h3 class="section-title">Artigos</h3>
+      <div class="cards">
+        <article class="card">
+          <div class="card-img img-1" role="img" aria-label="Tudo sobre os melhores jogos"></div>
+          <h4>Lore e Histórias dos Vaults</h4>
+          <p>Relatos, diários e cronologias das comunidades que resistiram</p>
+        </article>
+
+        <article class="card">
+          <div class="card-img img-2" role="img" aria-label="Notícias sobre o mundo dos games"></div>
+          <h4>Novidades e Rumores</h4>
+          <p>Relatórios de expedição, eventos no mapa e rumores de recursos escondidos.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-img img-3" role="img" aria-label="As últimas notícias sobre eSports"></div>
+          <h4>Mods e Lançamentos</h4>
+          <p>Novos mods, pacotes de sobrevivência e atualizações para expandir suas terras.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-img img-4" role="img" aria-label="As últimas notícias sobre lançamentos de jogos"></div>
+          <h4>Lançamentos de jogos</h4>
+          <p>Trailers, datas de lançamento e primeiras impressões.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-img img-5" role="img" aria-label="Comunidade de fãs dos jogos"></div>
+          <h4>Comunidade e Trocas</h4>
+          <p>Mercados clandestinos, guildas e fóruns para trocar recursos e histórias.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-img img-6" role="img" aria-label="Confira as análises realizadas por especialistas"></div>
+          <h4>Análises de Armas e Equipamentos</h4>
+          <p>Testes de armamentos, upgrades e tutoriais para montar seu kit de sobrevivência.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="sobre" class="sobre container">
+  <h3 class="section-title">Sobre o desenvolvedor</h3>
+  <div class="sobre-row">
+    <img class="sobre-foto" src="https://scontent-gig4-1.xx.fbcdn.net/v/t39.30808-6/404597725_6914745645308020_8668770334074011314_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=kj0H50mmrigQ7kNvwF8qlCX&_nc_oc=Adnvs1eUpu5iGvqlFOrN9A3_CNZkLYKpT8ZtwnLmwcYe8wZ26GSmRnDV8qmihzGUzE8&_nc_zt=23&_nc_ht=scontent-gig4-1.xx&_nc_gid=bbIYb85G2Ph7xQCFuioDcw&oh=00_AfYeWJTy7WwU0RLT8SGo5YF5a0LroWixZhctRrSUpGv_yA&oe=68E09680" alt="Foto de Maria Clara, desenvolvedora">
+    <div class="sobre-texto">
+      <p><strong>Sou aluno Serratec e estou atualmente estudando front-end.</strong></p>
+    </div>
+  </div>
+</section>
+
+    <section id="newsletter" class="newsletter container">
+      <h3 class="section-title">Assine a newsletter</h3>
+      <p>Receba novidades e conteúdos exclusivos diretamente no seu e-mail.</p>
+      <form id="newsletter-form" class="form">
+        <div class="form-row">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" placeholder="Seu nome" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Seu melhor email</label>
+          <input id="email" name="email" type="email" placeholder="seu@email.com" required />
+        </div>
+        <button type="submit" class="btn-primary">Assinar!</button>
+        <p id="form-feedback" class="form-feedback" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="credits">
+        <p>Desenvolvido por Raphael Lima</p>
+        <p>Residência em TIC Software 2025.2 - Turma: 28</p>
+      </div>
+      <div class="socials" aria-label="Redes sociais">
+        <a href="https://www.facebook.com/raphaelblz" class="social" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://www.instagram.com/raphael.l.o/" class="social" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.youtube.com/@bethesda" class="social" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a href="https://www.linkedin.com/in/raphael-lima-/" class="social" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/RaphaelLima137" class="social" target="_blank" rel="noopener noreferrer" >GitHub</a>
+
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
